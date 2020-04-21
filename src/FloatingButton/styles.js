@@ -36,6 +36,9 @@ export const Container = styled(posed.div({
   border-radius: 50px;
   background-color: #f9415d;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 
@@ -75,5 +78,7 @@ export const Item = styled(posed.div({
   background-color: #dbdbdb;
   box-shadow: 0 1px 8px 0 rgb(255,255,255);
   cursor: pointer;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

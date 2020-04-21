@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Container, Floating, Item } from "./styles";
 import posed, { PoseGroup } from 'react-pose'
 
-let number = 7;
+let number = 2;
 const height = 100;
 const rotations = {
     '3': [[3*Math.PI/2,Math.PI],[0,Math.PI/2]],
     '6': [[Math.PI,Math.PI],[0,0]]
 }
 
-function FloatingButton({top= false, right= true}) {
+function FloatingButton({top= true, right= false}) {
     const [expanded, setExpanded] = useState(false)
 
     function getAngle(i) {
@@ -25,13 +25,13 @@ function FloatingButton({top= false, right= true}) {
 
     return (
         <Floating
-            //onMouseEnter={()=> {setExpanded(!expanded)}}
-            //onMouseLeave={()=> {setExpanded(!expanded)}}
             onClick={()=> {setExpanded(!expanded)}}
             top={top} right={right} pose={expanded? 'open' : 'closed'}
             number={number} distance={getAngle(0).distance}
         >
-            <Container  height={height}/>
+            <Container  height={height}>
+                Test
+            </Container>
             <PoseGroup>
                 {expanded && [...Array(number)].map((x, i) =>
                     <Item key={i}
@@ -39,7 +39,9 @@ function FloatingButton({top= false, right= true}) {
                           height={height}
                           distance={getAngle(i).distance}
                           onClick={()=>{console.log(`this is item ${i}`)}}
-                    />
+                    >
+                        {i}
+                    </Item>
                 )}
             </PoseGroup>
         </Floating>

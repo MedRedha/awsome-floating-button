@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
     </list>
@@ -65,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587496482707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add rotation">
+      <created>1587503355750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587503355750</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix rotation">
+      <created>1587506514027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587506514027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,20 +89,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Config" />
     <MESSAGE value="add position" />
-    <option name="LAST_COMMIT_MESSAGE" value="add position" />
+    <MESSAGE value="add rotation" />
+    <MESSAGE value="fix rotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix rotation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="554" y="-1031" key="CommitChangelistDialog2" timestamp="1587496482606">
+    <state x="554" y="-1031" key="CommitChangelistDialog2" timestamp="1587506513924">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587496482606" />
+    <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="624" y="-755" key="EditFileWatcherDialog/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587476523427" />
-    <state x="469" y="-901" key="SettingsEditor" timestamp="1587483580275">
+    <state x="469" y="-901" key="SettingsEditor" timestamp="1587504925152">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="469" y="-901" key="SettingsEditor/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587483580275" />
+    <state x="469" y="-901" key="SettingsEditor/0.23.1680.1027/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587504925152" />
   </component>
 </project>
