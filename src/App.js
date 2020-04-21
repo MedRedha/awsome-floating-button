@@ -5,7 +5,7 @@ import FloatingButton from "./FloatingButton";
 function App() {
   return (
     <div className="App-header">
-      <FloatingButton />
+      <FloatingButton/>
     </div>
   );
 }

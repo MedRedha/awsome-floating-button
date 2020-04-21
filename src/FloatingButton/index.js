@@ -11,13 +11,14 @@ function getAngle(i) {
         distance: height/(Math.sin(angle / (number - 1))) + height/2
 }
 }
-function FloatingButton() {
+function FloatingButton({top=true, right= true}) {
     const [expanded, setExpanded] = useState(false)
     return (
         <Floating
             //onMouseEnter={()=> {setExpanded(!expanded)}}
             //onMouseLeave={()=> {setExpanded(!expanded)}}
             onClick={()=> {setExpanded(!expanded)}}
+            top={top} right={right}
         >
             <Container  height={height}/>
             <PoseGroup>

@@ -2,11 +2,15 @@ import styled from "styled-components";
 import posed from "react-pose";
 
 export const Floating = styled.div`
-  top: 50px;
-  left: 50px;
+  position: absolute;
+  top: ${props => props.top ? '50' : 'null'};
   display: flex;
   align-items: center;
   justify-content: center;
+    top: ${props => props.top ? '50px' : 'none'};
+  bottom: ${props => !props.top ? '50px' : 'none'};
+  right: ${props => props.right ? '50px' : 'none'};
+  left: ${props => !props.right ? '50px' : 'none'};
 `;
 
 export const Container = styled(posed.div({
