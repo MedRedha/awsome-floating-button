@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Floating, Item } from "./styles";
-import posed, { PoseGroup } from 'react-pose'
+import { PoseGroup } from 'react-pose'
 
 let number = 2;
 const height = 100;
