@@ -2,22 +2,27 @@ import React, { useState } from 'react';
 import { Container, Floating, Item } from "./styles";
 import posed, { PoseGroup } from 'react-pose'
 
-let number = 3;
+let number = 7;
 const height = 100;
-
-
-function getAngle(i) {
-    const angle = number <= 3 ? Math.PI/2 : number <= 6 ? Math.PI : 2*Math.PI;
-    return {
-        angle:number <= 6 ? i* angle / (number - 1) : i* angle / (number),
-        distance: number <= 6 ?
-            height/(Math.sin(angle / (number - 1))) + height/2
-            : height/(Math.sin(angle / (number))) + height/2
-    }
+const rotations = {
+    '3': [[3*Math.PI/2,Math.PI],[0,Math.PI/2]],
+    '6': [[Math.PI,Math.PI],[0,0]]
 }
-function FloatingButton({top= true, right= false}) {
+
+function FloatingButton({top= false, right= true}) {
     const [expanded, setExpanded] = useState(false)
-    console.log(getAngle(0))
+
+    function getAngle(i) {
+        const angle = number <= 3 ? Math.PI/2 : number <= 6 ? Math.PI : 2*Math.PI;
+        const rotate = rotations[number <= 3 ? '3' : '6'][Number(top)][Number(right)]
+        return {
+            angle: rotate + (number <= 6 ? i* angle / (number - 1) : i* angle / (number)),
+            distance: number <= 6 ?
+                height/(Math.sin(angle / (number - 1))) + height/2
+                : height/(Math.sin(angle / (number))) + height/2
+        }
+    }
+
     return (
         <Floating
             //onMouseEnter={()=> {setExpanded(!expanded)}}
