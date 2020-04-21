@@ -34,7 +34,7 @@ export const Container = styled(posed.div({
   height: ${props => props.height}px;
   width: ${props => props.height}px;
   border-radius: 50px;
-  background-color: #f9415d;
+  background-color: #8f1d30;
   cursor: pointer;
   display: flex;
   justify-content: center;
