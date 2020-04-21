@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
     </list>

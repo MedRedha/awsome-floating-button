@@ -1,16 +1,47 @@
 import styled from "styled-components";
 import posed from "react-pose";
 
+const mat =
+    {   '3':{
+        'top':{
+            'left': '0',
+            'right': '90',
+        },
+        'bottom':{
+            'right': '180',
+            'left': '270',
+        }},
+
+        '6':{
+            'top':{
+                'left': '0',
+                'right': '0',
+            },
+            'bottom':{
+                'right': '180',
+                'left': '180',
+            }}
+
+    }
+
 export const Floating = styled(posed.div({
     pressable: true,
     hover: { scale: 1.1 },
     press: { x: 0, delay: 100  },
     open:
         {
-          x: (props) => props.number > 3 && (props.right ? -props.distance: props.distance),
-          y: (props) => props.number > 6 && (props.top ? props.distance : -props.distance)
+          x: props => props.number > 3 && (props.right ? -props.distance: props.distance),
+          y: props => props.number > 6 && (props.top ? props.distance : -props.distance),
+            rotate:  props => props.number < 7 ?
+                mat[props.number <= 3 ? '3' : '6'][props.top ? 'top' : 'bottom'][props.right ? 'right': 'left'] : 0,
+            transition: {
+                rotate: { type: "spring", duration: 50 },
+                x: { type: "spring", delay: 150 },
+                y: { type: "spring", delay: 150 },
+
+            }
         },
-    closed: { x: 0, y: 0 },
+    closed: { x: 0, y: 0, rotate: 0 },
 }))`
   position: absolute;
   top: ${props => props.top ? '50' : 'null'};
@@ -27,7 +58,7 @@ export const Container = styled(posed.div({
     hoverable: true,
     pressable: true,
     init: { scale: 1 },
-    hover: { scale: 1.1 },
+    hover: { scale: 1.2 },
     press: { scale: 0.8 }
 }))`
   height: ${props => props.height}px;

@@ -5,6 +5,7 @@ import posed, { PoseGroup } from 'react-pose'
 let number = 3;
 const height = 100;
 
+
 function getAngle(i) {
     const angle = number <= 3 ? Math.PI/2 : number <= 6 ? Math.PI : 2*Math.PI;
     return {
@@ -14,7 +15,7 @@ function getAngle(i) {
             : height/(Math.sin(angle / (number))) + height/2
     }
 }
-function FloatingButton({top= true, right= 100}) {
+function FloatingButton({top= true, right= false}) {
     const [expanded, setExpanded] = useState(false)
     console.log(getAngle(0))
     return (
