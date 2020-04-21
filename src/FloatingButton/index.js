@@ -29,9 +29,7 @@ function FloatingButton({top= true, right= false}) {
             top={top} right={right} pose={expanded? 'open' : 'closed'}
             number={number} distance={getAngle(0).distance}
         >
-            <Container  height={height}>
-                Test
-            </Container>
+            <Container  height={height}/>
             <PoseGroup>
                 {expanded && [...Array(number)].map((x, i) =>
                     <Item key={i}
@@ -39,9 +37,7 @@ function FloatingButton({top= true, right= false}) {
                           height={height}
                           distance={getAngle(i).distance}
                           onClick={()=>{console.log(`this is item ${i}`)}}
-                    >
-                        {i}
-                    </Item>
+                    />
                 )}
             </PoseGroup>
         </Floating>
