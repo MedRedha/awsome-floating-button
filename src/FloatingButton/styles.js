@@ -1,13 +1,23 @@
 import styled from "styled-components";
 import posed from "react-pose";
 
-export const Floating = styled.div`
+export const Floating = styled(posed.div({
+    pressable: true,
+    hover: { scale: 1.1 },
+    press: { x: 0, delay: 100  },
+    open:
+        {
+          x: (props) => props.number > 3 && (props.right ? -props.distance: props.distance),
+          y: (props) => props.number > 6 && (props.top ? props.distance : -props.distance)
+        },
+    closed: { x: 0, y: 0 },
+}))`
   position: absolute;
   top: ${props => props.top ? '50' : 'null'};
   display: flex;
   align-items: center;
   justify-content: center;
-    top: ${props => props.top ? '50px' : 'none'};
+  top: ${props => props.top ? '50px' : 'none'};
   bottom: ${props => !props.top ? '50px' : 'none'};
   right: ${props => props.right ? '50px' : 'none'};
   left: ${props => !props.right ? '50px' : 'none'};
