@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/awsome-floating-button/static/css/main.d1b05096.chunk.css",
+    "main.js": "/awsome-floating-button/static/js/main.b241b304.chunk.js",
+    "main.js.map": "/awsome-floating-button/static/js/main.b241b304.chunk.js.map",
+    "runtime-main.js": "/awsome-floating-button/static/js/runtime-main.bd67c5fc.js",
+    "runtime-main.js.map": "/awsome-floating-button/static/js/runtime-main.bd67c5fc.js.map",
+    "static/js/2.c4ce03ee.chunk.js": "/awsome-floating-button/static/js/2.c4ce03ee.chunk.js",
+    "static/js/2.c4ce03ee.chunk.js.map": "/awsome-floating-button/static/js/2.c4ce03ee.chunk.js.map",
+    "index.html": "/awsome-floating-button/index.html",
+    "precache-manifest.4ff3ca4e37e17e0813dd932aa13acd3b.js": "/awsome-floating-button/precache-manifest.4ff3ca4e37e17e0813dd932aa13acd3b.js",
+    "service-worker.js": "/awsome-floating-button/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/awsome-floating-button/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.c4ce03ee.chunk.js.LICENSE.txt": "/awsome-floating-button/static/js/2.c4ce03ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd67c5fc.js",
+    "static/js/2.c4ce03ee.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.b241b304.chunk.js"
+  ]
+}
