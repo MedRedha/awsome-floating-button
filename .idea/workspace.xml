@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587532030632</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="img alt text">
+      <created>1587532860726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587532860726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,14 +186,15 @@
     <MESSAGE value="on child case" />
     <MESSAGE value="add zindex" />
     <MESSAGE value="no state" />
-    <option name="LAST_COMMIT_MESSAGE" value="no state" />
+    <MESSAGE value="img alt text" />
+    <option name="LAST_COMMIT_MESSAGE" value="img alt text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587532344020">
+    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587532860614">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
-    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587532344020" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587532860614" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>

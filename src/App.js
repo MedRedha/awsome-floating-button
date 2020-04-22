@@ -14,7 +14,7 @@ import logo8 from "./assets/MUSIC.svg";
 function App() {
   return (
     <div className="App-header">
-      <FloatingButton right={true} top={true} height={80}>
+      <FloatingButton right={true} top={true} height={60}>
         <Item
           Imgsrc={logo}
           onClick={() => {
@@ -64,7 +64,7 @@ function App() {
           }}
         />
       </FloatingButton>
-      <FloatingButton right={false} top={true} height={80}>
+      <FloatingButton right={false} top={true} height={60}>
         <Item
           Imgsrc={logo}
           onClick={() => {
@@ -84,7 +84,7 @@ function App() {
           }}
         />
       </FloatingButton>
-      <FloatingButton right={false} top={false} height={80}>
+      <FloatingButton right={false} top={false} height={60}>
         <Item
           Imgsrc={logo}
           onClick={() => {
@@ -116,7 +116,7 @@ function App() {
           }}
         />
       </FloatingButton>
-      <FloatingButton right={true} top={false} height={80}>
+      <FloatingButton right={true} top={false} height={60}>
         <Item
           Imgsrc={logo}
           onClick={() => {
