@@ -15,7 +15,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
 import PropTypes from "prop-types";
-import MenuToggle from './hamburger'
+import MenuToggle from "./hamburger";
 
 const rotations = {
   "3": [
@@ -28,7 +28,14 @@ const rotations = {
   ],
 };
 
-function FloatingButton({ backgroundColor, color, height, top, right, children }) {
+function FloatingButton({
+  backgroundColor,
+  color,
+  height,
+  top,
+  right,
+  children,
+}) {
   const [expanded, setExpanded] = useState(false);
   const ref = useRef(null);
 
@@ -79,7 +86,7 @@ function FloatingButton({ backgroundColor, color, height, top, right, children }
         height={height}
         style={{ backgroundColor: `${backgroundColor || "none"}` }}
       >
-        <MenuToggle expanded={expanded} color={color} height={height}/>
+        <MenuToggle expanded={expanded} color={color} height={height} />
       </Container>
       <PoseGroup>
         {number === 1 ? (
@@ -95,7 +102,7 @@ function FloatingButton({ backgroundColor, color, height, top, right, children }
           >
             <img
               src={children.props.imgSrc}
-              style={{ height: height / 2, width: height / 2, fill: 'white' }}
+              style={{ height: height / 2, width: height / 2, fill: "white" }}
               alt={"icon"}
             />
           </Item>
@@ -126,8 +133,8 @@ function FloatingButton({ backgroundColor, color, height, top, right, children }
 }
 
 FloatingButton.defaultProps = {
-  color: '#dbdbdb',
-  backgroundColor: '#8f1d30',
+  color: "#dbdbdb",
+  backgroundColor: "#8f1d30",
   height: 60,
   top: false,
   right: true,
@@ -137,10 +144,10 @@ FloatingButton.defaultProps = {
 FloatingButton.propTypes = {
   color: PropTypes.string,
   backgroundColor: PropTypes.string,
-  height: PropTypes.string,
+  height: PropTypes.number,
   top: PropTypes.bool,
   right: PropTypes.bool,
-  children: PropTypes.object,
+  children: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
 };
 
 export default FloatingButton;
