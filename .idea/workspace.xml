@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
       <workItem from="1587473984327" duration="189000" />
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
+      <workItem from="1587523047812" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
@@ -80,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587506514027</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 01">
+      <created>1587510112163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587510112163</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,21 +104,24 @@
     <MESSAGE value="add position" />
     <MESSAGE value="add rotation" />
     <MESSAGE value="fix rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix rotation" />
+    <MESSAGE value="Version 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 01" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="554" y="-1031" key="CommitChangelistDialog2" timestamp="1587506513924">
-      <screen x="0" y="-1080" width="1920" height="1080" />
+    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587510112046">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587510112046" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="624" y="-755" key="EditFileWatcherDialog/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587476523427" />
-    <state x="469" y="-901" key="SettingsEditor" timestamp="1587504925152">
-      <screen x="0" y="-1080" width="1920" height="1080" />
+    <state x="410" y="174" key="SettingsEditor" timestamp="1587523274470">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="469" y="-901" key="SettingsEditor/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587483580275" />
+    <state x="410" y="174" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587523274470" />
     <state x="469" y="-901" key="SettingsEditor/0.23.1680.1027/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587504925152" />
   </component>
 </project>
