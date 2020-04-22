@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="no state">
+      <change afterPath="$PROJECT_DIR$/src/FloatingButton/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatingButton/hamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/hamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +66,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FloatingButton" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/FloatingButton" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +93,7 @@
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
       <workItem from="1587523047812" duration="8177000" />
+      <workItem from="1587574611807" duration="10625000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
@@ -167,7 +179,63 @@
       <option name="project" value="LOCAL" />
       <updated>1587532860726</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add proptypes default props">
+      <created>1587575304782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587575304782</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add docs">
+      <created>1587575653932</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587575653932</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add handle click outside">
+      <created>1587576297755</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587576297755</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding hamburger animation">
+      <created>1587591209372</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587591209372</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add animation">
+      <created>1587592315766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587592315766</updated>
+    </task>
+    <task id="LOCAL-00018" summary="customize height and color of principal button">
+      <created>1587592742461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587592742461</updated>
+    </task>
+    <task id="LOCAL-00019" summary="linting and proptypes fix">
+      <created>1587592912553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587592912553</updated>
+    </task>
+    <task id="LOCAL-00020" summary="icon color">
+      <created>1587593005983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587593005983</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,22 +255,50 @@
     <MESSAGE value="add zindex" />
     <MESSAGE value="no state" />
     <MESSAGE value="img alt text" />
-    <option name="LAST_COMMIT_MESSAGE" value="img alt text" />
+    <MESSAGE value="Add proptypes default props" />
+    <MESSAGE value="add docs" />
+    <MESSAGE value="add handle click outside" />
+    <MESSAGE value="adding hamburger animation" />
+    <MESSAGE value="Add animation" />
+    <MESSAGE value="customize height and color of principal button" />
+    <MESSAGE value="linting and proptypes fix" />
+    <MESSAGE value="icon color" />
+    <option name="LAST_COMMIT_MESSAGE" value="icon color" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587532860614">
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587588802181">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
-    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587532860614" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587588802181" />
+    <state x="554" y="-1031" key="CommitChangelistDialog2" timestamp="1587593005901">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587593005901" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587591209244" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="624" y="-755" key="EditFileWatcherDialog/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587476523427" />
-    <state x="410" y="174" key="SettingsEditor" timestamp="1587523274470">
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1587596553920">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="469" y="-901" key="SettingsEditor/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587483580275" />
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050/0.-1080.1920.1080@0.0.1680.1050" timestamp="1587596553920" />
+    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1587596553919">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050/0.-1080.1920.1080@0.0.1680.1050" timestamp="1587596553918" />
+    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1587596553917">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050/0.-1080.1920.1080@0.0.1680.1050" timestamp="1587596553917" />
+    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1587596553919">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050/0.-1080.1920.1080@0.0.1680.1050" timestamp="1587596553919" />
+    <state x="469" y="-901" key="SettingsEditor" timestamp="1587592755801">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="469" y="-901" key="SettingsEditor/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587592755801" />
     <state x="410" y="174" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587523274470" />
     <state x="469" y="-901" key="SettingsEditor/0.23.1680.1027/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587504925152" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587528309803">

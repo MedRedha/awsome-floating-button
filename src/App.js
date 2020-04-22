@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import FloatingButton from "./FloatingButton";
-import { Item } from "./FloatingButton/styles";
+import FloatingButton from "awesome-floating-button";
+import Item from "awesome-floating-button";
 import logo from "./assets/DOWNLOAD.svg";
 import logo2 from "./assets/FORWARD 2.svg";
 import logo3 from "./assets/GRID.svg";
@@ -14,7 +14,13 @@ import logo8 from "./assets/MUSIC.svg";
 function App() {
   return (
     <div className="App-header">
-      <FloatingButton right={true} top={true} height={60} backgroundColor={'green'} color={'blue'}>
+      <FloatingButton
+        right={true}
+        top={true}
+        height={60}
+        backgroundColor={"white"}
+        color={"black"}
+      >
         <Item
           imgSrc={logo}
           onClick={() => {
