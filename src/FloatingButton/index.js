@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from 'react-pose'
 
-let number = 2;
 const height = 100;
 const rotations = {
     '3': [[3*Math.PI/2,Math.PI],[0,Math.PI/2]],
     '6': [[Math.PI,Math.PI],[0,0]]
 }
 
-function FloatingButton({top= true, right= false}) {
+function FloatingButton({number= 2, top= true, right= false}) {
     const [expanded, setExpanded] = useState(false)
 
     function getAngle(i) {
