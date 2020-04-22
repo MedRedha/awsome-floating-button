@@ -1,3 +1,16 @@
+/**
+ * @param {number} height           the height and width of the buttons.
+ * @param {boolean} top             specify if the button should be on the top if false the
+ * button will be at the bottom.
+ * @param {boolean} right           specify if the button should be on the right if false the
+ * button will be at the left.
+ * @param {string} color            the backgroundColor for the main button
+ * @children should be an Item component with params :
+ *  @param {string} imgSrc          the icon to use on given button
+ *  @param {function} onClick       the callback function call onClick
+ *  @param {string} color            the backgroundColor for the Item
+ */
+
 import React, { useState } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
