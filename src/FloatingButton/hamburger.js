@@ -18,7 +18,7 @@ const Line = styled.div`
   width: ${(props) => props.height * 0.5}px;
   border: white;
   border-radius: 3px;
-  background-color: white;
+  background-color: ${(props) => props.color};
 `;
 
 const Line1 = posed(Line)({
@@ -50,9 +50,9 @@ const MenuToggle = ({ height, color }) => {
   console.log(`height ${height}`);
   return (
     <ToggleWrapper onClick={() => setOpen(true)} height={height}>
-      <Line1 pose={open ? "open" : "closed"} height={height} />
-      <Line2 pose={open ? "open" : "closed"} height={height} />
-      <Line3 pose={open ? "open" : "closed"} height={height} />
+      <Line1 pose={open ? "open" : "closed"} height={height} color={color} />
+      <Line2 pose={open ? "open" : "closed"} height={height} color={color} />
+      <Line3 pose={open ? "open" : "closed"} height={height} color={color} />
     </ToggleWrapper>
   );
 };
