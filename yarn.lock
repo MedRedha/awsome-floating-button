@@ -2475,6 +2475,21 @@ autoprefixer@^9.6.1:
     postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
+awesome-floating-button@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/awesome-floating-button/-/awesome-floating-button-1.0.0.tgz#f32a8a36d9e1da9351b7370aad94e6b177d61de5"
+  integrity sha512-GJ+0A8bTm2d0QnCxh9pCXRxK1qG1N4T75nqir9XCq4cdUqMohKqpGJU2LmYdlnggp+wai6cdZoaOthpo89z7sA==
+  dependencies:
+    "@testing-library/jest-dom" "^4.2.4"
+    "@testing-library/react" "^9.3.2"
+    "@testing-library/user-event" "^7.1.2"
+    prettier "^2.0.5"
+    react "^16.13.1"
+    react-dom "^16.13.1"
+    react-pose "^4.0.10"
+    react-scripts "3.4.1"
+    styled-components "^5.1.0"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
