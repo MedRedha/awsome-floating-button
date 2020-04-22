@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App-header">
-      <FloatingButton right={right} top={top}>
+      <FloatingButton right={right} top={top} height={80}>
         <Item
           Imgsrc={logo}
           onClick={() => {

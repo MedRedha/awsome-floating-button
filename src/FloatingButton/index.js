@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
 
-const height = 100;
 const rotations = {
   "3": [
     [(3 * Math.PI) / 2, Math.PI],
@@ -14,7 +13,7 @@ const rotations = {
   ],
 };
 
-function FloatingButton({ top = true, right = false, children }) {
+function FloatingButton({ height, top = true, right = false, children }) {
   const [expanded, setExpanded] = useState(false);
   let number = React.Children.count(children);
 
@@ -62,7 +61,7 @@ function FloatingButton({ top = true, right = false, children }) {
             >
               <img
                 src={children[i].props.Imgsrc}
-                style={{ height: 50, width: 50 }}
+                style={{ height: height / 2, width: height / 2 }}
               />
             </Item>
           ))}

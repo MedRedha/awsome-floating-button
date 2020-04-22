@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="Version 01">
+    <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1587473984327" duration="189000" />
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
-      <workItem from="1587523047812" duration="6629000" />
+      <workItem from="1587523047812" duration="6799000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
@@ -121,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587510112163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="To component">
+      <created>1587530791003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587530791003</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add on click">
+      <created>1587530804057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587530804057</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,14 +145,16 @@
     <MESSAGE value="add rotation" />
     <MESSAGE value="fix rotation" />
     <MESSAGE value="Version 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 01" />
+    <MESSAGE value="To component" />
+    <MESSAGE value="add on click" />
+    <option name="LAST_COMMIT_MESSAGE" value="add on click" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587530774463">
+    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587530803950">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
-    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587530774463" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587530803950" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
