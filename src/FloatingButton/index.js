@@ -14,14 +14,10 @@ const rotations = {
   ],
 };
 
-function FloatingButton({
-  isExpanded,
-  setExpanded,
-  number = 2,
-  top = true,
-  right = false,
-}) {
-  let expanded = isExpanded;
+function FloatingButton({ top = true, right = false, children }) {
+  const [expanded, setExpanded] = useState(false);
+  let number = React.Children.count(children);
+
   function getAngle(i) {
     const angle =
       number <= 3 ? Math.PI / 2 : number <= 6 ? Math.PI : 2 * Math.PI;
@@ -38,6 +34,7 @@ function FloatingButton({
     };
   }
 
+  console.log(children);
   return (
     <Floating
       onClick={() => {
@@ -58,10 +55,15 @@ function FloatingButton({
               i={getAngle(i).angle}
               height={height}
               distance={getAngle(i).distance}
-              onClick={() => {
-                console.log(`this is item ${i}`);
+              style={{
+                backgroundColor: children[i].props.color,
               }}
-            />
+            >
+              <img
+                src={children[i].props.Imgsrc}
+                style={{ height: 50, width: 50 }}
+              />
+            </Item>
           ))}
       </PoseGroup>
     </Floating>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="Version 01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloatingButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="fix/refresh-state" />
+                    <option name="lastUsedInstant" value="1587523690" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1587523689" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1aqiksyoal6B8Kqg3cWHT4ZwuyY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,6 +67,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="SvnConfiguration">
@@ -56,7 +84,7 @@
       <workItem from="1587473984327" duration="189000" />
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
-      <workItem from="1587523047812" duration="545000" />
+      <workItem from="1587523047812" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
@@ -108,11 +136,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version 01" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587510112046">
+    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587530774463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
-    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587510112046" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587530774463" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
@@ -123,5 +151,9 @@
     <state x="469" y="-901" key="SettingsEditor/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587483580275" />
     <state x="410" y="174" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587523274470" />
     <state x="469" y="-901" key="SettingsEditor/0.23.1680.1027/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587504925152" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587528309803">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587528309803" />
   </component>
 </project>
