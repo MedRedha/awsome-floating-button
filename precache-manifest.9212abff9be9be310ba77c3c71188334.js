@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "781a792818d74b80551abd423aab06bd",
+    "revision": "dab9d922f40c73f0e9fa97aa5cb29583",
     "url": "/awsome-floating-button/index.html"
   },
   {
-    "revision": "546bb452b19e88b06d39",
+    "revision": "69f5f885ccc505a71788",
     "url": "/awsome-floating-button/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "5a7c253bcffdb921f41b",
-    "url": "/awsome-floating-button/static/js/2.c4ce03ee.chunk.js"
+    "revision": "a4f1d44e3d421a79f6dd",
+    "url": "/awsome-floating-button/static/js/2.e5aa3178.chunk.js"
   },
   {
     "revision": "9f55a1ac102148e41f3a9543b31fc30f",
-    "url": "/awsome-floating-button/static/js/2.c4ce03ee.chunk.js.LICENSE.txt"
+    "url": "/awsome-floating-button/static/js/2.e5aa3178.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "546bb452b19e88b06d39",
-    "url": "/awsome-floating-button/static/js/main.967d212d.chunk.js"
+    "revision": "69f5f885ccc505a71788",
+    "url": "/awsome-floating-button/static/js/main.2e0bb09f.chunk.js"
   },
   {
     "revision": "9384b64a04bdb87e6e04",
