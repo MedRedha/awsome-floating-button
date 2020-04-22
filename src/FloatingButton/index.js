@@ -58,6 +58,7 @@ function FloatingButton({ top = true, right = false, children }) {
               style={{
                 backgroundColor: children[i].props.color,
               }}
+              onClick={() => children[i].props.onClick()}
             >
               <img
                 src={children[i].props.Imgsrc}
