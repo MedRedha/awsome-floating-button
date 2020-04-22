@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
 
@@ -70,6 +70,7 @@ function FloatingButton({
             <img
               src={children.props.Imgsrc}
               style={{ height: height / 2, width: height / 2 }}
+              alt={"icon"}
             />
           </Item>
         ) : (
@@ -88,6 +89,7 @@ function FloatingButton({
               <img
                 src={children[i].props.Imgsrc}
                 style={{ height: height / 2, width: height / 2 }}
+                alt={`icon-${i}`}
               />
             </Item>
           ))
