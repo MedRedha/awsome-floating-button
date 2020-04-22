@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
+import PropTypes from "prop-types";
 
 const rotations = {
   "3": [
@@ -39,7 +40,6 @@ function FloatingButton({
     };
   }
 
-  console.log(number);
   return (
     <Floating
       onClick={() => {
@@ -68,7 +68,7 @@ function FloatingButton({
             onClick={() => children.props.onClick()}
           >
             <img
-              src={children.props.Imgsrc}
+              src={children.props.imgSrc}
               style={{ height: height / 2, width: height / 2 }}
               alt={"icon"}
             />
@@ -87,7 +87,7 @@ function FloatingButton({
               onClick={() => children[i].props.onClick()}
             >
               <img
-                src={children[i].props.Imgsrc}
+                src={children[i].props.imgSrc}
                 style={{ height: height / 2, width: height / 2 }}
                 alt={`icon-${i}`}
               />
@@ -98,5 +98,21 @@ function FloatingButton({
     </Floating>
   );
 }
+
+FloatingButton.defaultProps = {
+  color: "none",
+  height: 60,
+  top: true,
+  right: false,
+  children: {},
+};
+
+FloatingButton.propTypes = {
+  color: PropTypes.string,
+  height: PropTypes.string,
+  top: PropTypes.bool,
+  right: PropTypes.bool,
+  children: PropTypes.object,
+};
 
 export default FloatingButton;

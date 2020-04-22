@@ -16,49 +16,49 @@ function App() {
     <div className="App-header">
       <FloatingButton right={true} top={true} height={60}>
         <Item
-          Imgsrc={logo}
+          imgSrc={logo}
           onClick={() => {
             console.log("logo");
           }}
         />
         <Item
-          Imgsrc={logo2}
+          imgSrc={logo2}
           onClick={() => {
             console.log("logo2");
           }}
         />
         <Item
-          Imgsrc={logo3}
+          imgSrc={logo3}
           onClick={() => {
             console.log("logo3");
           }}
         />
         <Item
-          Imgsrc={logo4}
+          imgSrc={logo4}
           onClick={() => {
             console.log("logo4");
           }}
         />
         <Item
-          Imgsrc={logo5}
+          imgSrc={logo5}
           onClick={() => {
             console.log("logo5");
           }}
         />
         <Item
-          Imgsrc={logo6}
+          imgSrc={logo6}
           onClick={() => {
             console.log("logo6");
           }}
         />
         <Item
-          Imgsrc={logo7}
+          imgSrc={logo7}
           onClick={() => {
             console.log("logo7");
           }}
         />
         <Item
-          Imgsrc={logo8}
+          imgSrc={logo8}
           onClick={() => {
             console.log("logo8");
           }}
@@ -66,19 +66,19 @@ function App() {
       </FloatingButton>
       <FloatingButton right={false} top={true} height={60}>
         <Item
-          Imgsrc={logo}
+          imgSrc={logo}
           onClick={() => {
             console.log("logo");
           }}
         />
         <Item
-          Imgsrc={logo2}
+          imgSrc={logo2}
           onClick={() => {
             console.log("logo2");
           }}
         />
         <Item
-          Imgsrc={logo3}
+          imgSrc={logo3}
           onClick={() => {
             console.log("logo3");
           }}
@@ -86,31 +86,31 @@ function App() {
       </FloatingButton>
       <FloatingButton right={false} top={false} height={60}>
         <Item
-          Imgsrc={logo}
+          imgSrc={logo}
           onClick={() => {
             console.log("logo");
           }}
         />
         <Item
-          Imgsrc={logo2}
+          imgSrc={logo2}
           onClick={() => {
             console.log("logo2");
           }}
         />
         <Item
-          Imgsrc={logo3}
+          imgSrc={logo3}
           onClick={() => {
             console.log("logo3");
           }}
         />
         <Item
-          Imgsrc={logo4}
+          imgSrc={logo4}
           onClick={() => {
             console.log("logo4");
           }}
         />
         <Item
-          Imgsrc={logo5}
+          imgSrc={logo5}
           onClick={() => {
             console.log("logo5");
           }}
@@ -118,7 +118,7 @@ function App() {
       </FloatingButton>
       <FloatingButton right={true} top={false} height={60}>
         <Item
-          Imgsrc={logo}
+          imgSrc={logo}
           onClick={() => {
             console.log("logo");
           }}
