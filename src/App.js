@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
 import FloatingButton from "./FloatingButton";
 import { Item } from "./FloatingButton/styles";
@@ -12,12 +12,9 @@ import logo7 from "./assets/MAP PIN.svg";
 import logo8 from "./assets/MUSIC.svg";
 
 function App() {
-  const [right, setRight] = useState(false);
-  const [top, setTop] = useState(true);
-
   return (
     <div className="App-header">
-      <FloatingButton right={right} top={top} height={80}>
+      <FloatingButton right={true} top={true} height={80}>
         <Item
           Imgsrc={logo}
           onClick={() => {
@@ -67,80 +64,66 @@ function App() {
           }}
         />
       </FloatingButton>
-      {/*<div style={{ display: "flex" }}>
-        <button
+      <FloatingButton right={false} top={true} height={80}>
+        <Item
+          Imgsrc={logo}
           onClick={() => {
-            setNumber(number + 1);
-            setExpanded(false);
+            console.log("logo");
           }}
-          style={{
-            height: "50px",
-            width: "50px",
-            fontSize: "32px",
-            borderRadius: "10px",
-            marginRight: "32px",
-          }}
-        >
-          {" "}
-          +{" "}
-        </button>
-        {number}
-        <button
+        />
+        <Item
+          Imgsrc={logo2}
           onClick={() => {
-            setNumber(number <= 2 ? number : number - 1);
-            setExpanded(false);
+            console.log("logo2");
           }}
-          style={{
-            height: "50px",
-            width: "50px",
-            fontSize: "32px",
-            borderRadius: "10px",
-            marginLeft: "32px",
+        />
+        <Item
+          Imgsrc={logo3}
+          onClick={() => {
+            console.log("logo3");
           }}
-        >
-          {" "}
-          -{" "}
-        </button>
-        <label>
-          <input
-            style={{
-              height: "30px",
-              width: "30px",
-              fontSize: "32px",
-              borderRadius: "10px",
-              marginLeft: "32px",
-            }}
-            type="checkbox"
-            data-toggle="toggle"
-            checked={right}
-            onChange={(e) => {
-              setRight(e.target.checked);
-              setExpanded(false);
-            }}
-          />
-          Right
-        </label>
-        <label>
-          <input
-            style={{
-              height: "30px",
-              width: "30px",
-              fontSize: "32px",
-              borderRadius: "10px",
-              marginLeft: "32px",
-            }}
-            type="checkbox"
-            data-toggle="toggle"
-            value={top}
-            onChange={(e) => {
-              setTop(e.target.checked);
-              setExpanded(false);
-            }}
-          />
-          Top
-        </label>
-      </div>
-      */}
+        />
+      </FloatingButton>
+      <FloatingButton right={false} top={false} height={80}>
+        <Item
+          Imgsrc={logo}
+          onClick={() => {
+            console.log("logo");
+          }}
+        />
+        <Item
+          Imgsrc={logo2}
+          onClick={() => {
+            console.log("logo2");
+          }}
+        />
+        <Item
+          Imgsrc={logo3}
+          onClick={() => {
+            console.log("logo3");
+          }}
+        />
+        <Item
+          Imgsrc={logo4}
+          onClick={() => {
+            console.log("logo4");
+          }}
+        />
+        <Item
+          Imgsrc={logo5}
+          onClick={() => {
+            console.log("logo5");
+          }}
+        />
+      </FloatingButton>
+      <FloatingButton right={true} top={false} height={80}>
+        <Item
+          Imgsrc={logo}
+          onClick={() => {
+            console.log("logo");
+          }}
+        />
+      </FloatingButton>
     </div>
   );
 }
