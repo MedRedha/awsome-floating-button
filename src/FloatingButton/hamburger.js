@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import posed from "react-pose";
-import {Floating} from "./styles";
 
 const ToggleWrapper = styled.span`
   cursor: pointer;
   display: flex;
-  height: 30px;
+  height: ${(props) => props.height/2}px;
   position: relative;
-  width: 30px;
+  width: ${(props) => props.height/2}px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -16,7 +15,7 @@ const ToggleWrapper = styled.span`
 
 const Line = styled.div`
   height: 4px;
-  width: 30px;
+  width: ${(props) => props.height*0.5}px;
   border: white;
   border-radius: 3px;
   background-color: white;
@@ -35,7 +34,7 @@ const Line2 = posed(Line)({
         rotate: 0,
         width: 0,
     },
-    closed: { width: 30, rotate: 0 },
+    closed: { width: (props) => props.height*0.6, rotate: 0 },
 })
 
 const Line3 = posed(Line)({
@@ -46,13 +45,14 @@ const Line3 = posed(Line)({
     closed: { y: 0,rotate: 0 },
 })
 
-const MenuToggle = () => {
+const MenuToggle = ({ height, color }) => {
     const [open, setOpen] = useState(false)
+    console.log(`height ${height}`)
     return (
-        <ToggleWrapper onClick={()=> setOpen(true)}>
-            <Line1 pose={open ? "open" : "closed"}/>
-            <Line2 pose={open ? "open" : "closed"}/>
-            <Line3 pose={open ? "open" : "closed"}/>
+        <ToggleWrapper onClick={()=> setOpen(true)} height={height}>
+            <Line1 pose={open ? "open" : "closed"} height={height}/>
+            <Line2 pose={open ? "open" : "closed"} height={height}/>
+            <Line3 pose={open ? "open" : "closed"} height={height}/>
         </ToggleWrapper>
     );
 }
