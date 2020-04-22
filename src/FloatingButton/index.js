@@ -39,7 +39,7 @@ function FloatingButton({
     };
   }
 
-  console.log(children);
+  console.log(number);
   return (
     <Floating
       onClick={() => {
@@ -56,7 +56,24 @@ function FloatingButton({
         style={{ backgroundColor: `${color || "none"}` }}
       />
       <PoseGroup>
-        {expanded &&
+        {number === 1 ? (
+          <Item
+            key={0}
+            i={getAngle(0).angle}
+            height={height}
+            distance={getAngle(0).distance}
+            style={{
+              backgroundColor: children.props.color,
+            }}
+            onClick={() => children.props.onClick()}
+          >
+            <img
+              src={children.props.Imgsrc}
+              style={{ height: height / 2, width: height / 2 }}
+            />
+          </Item>
+        ) : (
+          expanded &&
           [...Array(number)].map((x, i) => (
             <Item
               key={i}
@@ -73,7 +90,8 @@ function FloatingButton({
                 style={{ height: height / 2, width: height / 2 }}
               />
             </Item>
-          ))}
+          ))
+        )}
       </PoseGroup>
     </Floating>
   );
