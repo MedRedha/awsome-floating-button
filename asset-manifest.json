@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/awsome-floating-button/static/css/main.d1b05096.chunk.css",
-    "main.js": "/awsome-floating-button/static/js/main.2e0bb09f.chunk.js",
-    "main.js.map": "/awsome-floating-button/static/js/main.2e0bb09f.chunk.js.map",
+    "main.js": "/awsome-floating-button/static/js/main.fdf947e0.chunk.js",
+    "main.js.map": "/awsome-floating-button/static/js/main.fdf947e0.chunk.js.map",
     "runtime-main.js": "/awsome-floating-button/static/js/runtime-main.bd67c5fc.js",
     "runtime-main.js.map": "/awsome-floating-button/static/js/runtime-main.bd67c5fc.js.map",
-    "static/js/2.e5aa3178.chunk.js": "/awsome-floating-button/static/js/2.e5aa3178.chunk.js",
-    "static/js/2.e5aa3178.chunk.js.map": "/awsome-floating-button/static/js/2.e5aa3178.chunk.js.map",
+    "static/js/2.457d253b.chunk.js": "/awsome-floating-button/static/js/2.457d253b.chunk.js",
+    "static/js/2.457d253b.chunk.js.map": "/awsome-floating-button/static/js/2.457d253b.chunk.js.map",
     "index.html": "/awsome-floating-button/index.html",
-    "precache-manifest.9212abff9be9be310ba77c3c71188334.js": "/awsome-floating-button/precache-manifest.9212abff9be9be310ba77c3c71188334.js",
+    "precache-manifest.39469a6d8791cf2a22e27f61d6c36533.js": "/awsome-floating-button/precache-manifest.39469a6d8791cf2a22e27f61d6c36533.js",
     "service-worker.js": "/awsome-floating-button/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/awsome-floating-button/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.e5aa3178.chunk.js.LICENSE.txt": "/awsome-floating-button/static/js/2.e5aa3178.chunk.js.LICENSE.txt"
+    "static/js/2.457d253b.chunk.js.LICENSE.txt": "/awsome-floating-button/static/js/2.457d253b.chunk.js.LICENSE.txt",
+    "static/media/DOWNLOAD.svg": "/awsome-floating-button/static/media/DOWNLOAD.7e65f1ae.svg",
+    "static/media/FORWARD 2.svg": "/awsome-floating-button/static/media/FORWARD 2.6f01845c.svg",
+    "static/media/GIFT.svg": "/awsome-floating-button/static/media/GIFT.03d0b909.svg",
+    "static/media/GRID.svg": "/awsome-floating-button/static/media/GRID.5a25150d.svg",
+    "static/media/HOME.svg": "/awsome-floating-button/static/media/HOME.695748c1.svg",
+    "static/media/MAP PIN.svg": "/awsome-floating-button/static/media/MAP PIN.cf396ce1.svg",
+    "static/media/MAP.svg": "/awsome-floating-button/static/media/MAP.a4eb782b.svg",
+    "static/media/MUSIC.svg": "/awsome-floating-button/static/media/MUSIC.e7f8db9c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bd67c5fc.js",
-    "static/js/2.e5aa3178.chunk.js",
+    "static/js/2.457d253b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2e0bb09f.chunk.js"
+    "static/js/main.fdf947e0.chunk.js"
   ]
 }
