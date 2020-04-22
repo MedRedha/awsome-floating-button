@@ -11,7 +11,7 @@
  *  @param {string} color            the backgroundColor for the Item
  */
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
 import PropTypes from "prop-types";
@@ -35,7 +35,21 @@ function FloatingButton({
   children,
 }) {
   const [expanded, setExpanded] = useState(false);
+  const ref = useRef(null);
   let number = React.Children.count(children);
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside, true);
+    return () => {
+      document.removeEventListener("click", handleClickOutside, true);
+    };
+  });
+
+  const handleClickOutside = (event) => {
+    if (ref.current && !ref.current.contains(event.target)) {
+      setExpanded(false);
+    }
+  };
 
   function getAngle(i) {
     const angle =
@@ -63,6 +77,7 @@ function FloatingButton({
       pose={expanded ? "open" : "closed"}
       number={number}
       distance={getAngle(0).distance}
+      ref={ref}
     >
       <Container
         height={height}
