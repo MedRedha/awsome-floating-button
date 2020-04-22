@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b10617-3444-4457-b31c-c8739b7d71e9" name="Default Changelist" comment="no state">
-      <change afterPath="$PROJECT_DIR$/src/FloatingButton/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingButton/hamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/hamburger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingButton/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatingButton/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/using-library" />
+                    <option name="lastUsedInstant" value="1587598263" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="fix/refresh-state" />
                     <option name="lastUsedInstant" value="1587523690" />
@@ -93,7 +91,7 @@
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
       <workItem from="1587523047812" duration="8177000" />
-      <workItem from="1587574611807" duration="10625000" />
+      <workItem from="1587574611807" duration="10963000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
