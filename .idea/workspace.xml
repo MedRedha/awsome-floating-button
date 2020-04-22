@@ -82,7 +82,7 @@
       <workItem from="1587473984327" duration="189000" />
       <workItem from="1587474280154" duration="37000" />
       <workItem from="1587474333542" duration="16422000" />
-      <workItem from="1587523047812" duration="6799000" />
+      <workItem from="1587523047812" duration="7140000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Config">
       <created>1587495192158</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587530804057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add height">
+      <created>1587530964683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587530964683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,14 +154,15 @@
     <MESSAGE value="Version 01" />
     <MESSAGE value="To component" />
     <MESSAGE value="add on click" />
-    <option name="LAST_COMMIT_MESSAGE" value="add on click" />
+    <MESSAGE value="add height" />
+    <option name="LAST_COMMIT_MESSAGE" value="add height" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587530803950">
+    <state x="485" y="48" key="CommitChangelistDialog2" timestamp="1587530964562">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="554" y="-1031" key="CommitChangelistDialog2/0.0.1680.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1587506513924" />
-    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587530803950" />
+    <state x="485" y="48" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1587530964562" />
     <state x="624" y="-755" key="EditFileWatcherDialog" timestamp="1587476523427">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>

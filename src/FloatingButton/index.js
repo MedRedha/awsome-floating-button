@@ -13,7 +13,13 @@ const rotations = {
   ],
 };
 
-function FloatingButton({ height, top = true, right = false, children }) {
+function FloatingButton({
+  color,
+  height,
+  top = true,
+  right = false,
+  children,
+}) {
   const [expanded, setExpanded] = useState(false);
   let number = React.Children.count(children);
 
@@ -45,7 +51,10 @@ function FloatingButton({ height, top = true, right = false, children }) {
       number={number}
       distance={getAngle(0).distance}
     >
-      <Container height={height} />
+      <Container
+        height={height}
+        style={{ backgroundColor: `${color || "none"}` }}
+      />
       <PoseGroup>
         {expanded &&
           [...Array(number)].map((x, i) => (
