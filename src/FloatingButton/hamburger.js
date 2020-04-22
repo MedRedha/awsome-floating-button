@@ -3,13 +3,6 @@ import styled from 'styled-components';
 import posed from "react-pose";
 import {Floating} from "./styles";
 
-const Line = styled.div`
-  height: 3px;
-  width: 25px;
-  border: white;
-  border-radius: 3px;
-  background-color: white;
-`
 const ToggleWrapper = styled.span`
   cursor: pointer;
   display: flex;
@@ -20,6 +13,14 @@ const ToggleWrapper = styled.span`
   align-items: center;
   justify-content: space-around;
 `;
+
+const Line = styled.div`
+  height: 4px;
+  width: 30px;
+  border: white;
+  border-radius: 3px;
+  background-color: white;
+`
 
 const Line1 = posed(Line)({
     open: {
@@ -35,7 +36,7 @@ const Line2 = posed(Line)({
         width: 0,
     },
     closed: { width: 30, rotate: 0 },
-});
+})
 
 const Line3 = posed(Line)({
     open: {

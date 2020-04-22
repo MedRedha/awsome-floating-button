@@ -14,7 +14,7 @@ import logo8 from "./assets/MUSIC.svg";
 function App() {
   return (
     <div className="App-header">
-      <FloatingButton right={true} top={true} height={60}>
+      <FloatingButton right={true} top={true} height={60} backgroundColor={'green'} color={'blue'}>
         <Item
           imgSrc={logo}
           onClick={() => {
