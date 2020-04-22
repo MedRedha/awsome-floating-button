@@ -1,68 +1,129 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">React Awesome Floating Button</h1>
 
-## Available Scripts
+<p align="center">
+	<a href="https://wuud.net">
+		<img width="160" height="169" src="https://github.com/WuuD-Team/WuuD-Website/blob/master/favicon.ico?raw=true" alt="wuud">
+	<img width="300" height="200" src="https://media1.giphy.com/media/iFmw13LV1hHhViPPWz/source.gif" alt="react">
+	</a>
+</p>
+<p align="center">
+	<a href="https://wuud.net">
+		<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/na6im/awsome-floating-button/MasterDeployCI?label=Build">
+	</a>
+	<a href="https://wuud.net">
+		<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black">
+		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/na6im/awsome-floating-button?color=red&label=Version">
+		<img alt="GitHub package.json dependency version" src="https://img.shields.io/github/package-json/dependency-version/na6im/awsome-floating-button/react">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/na6im/awsome-floating-button?color=purple">
+		<img alt="Website" src="https://img.shields.io/website?down_color=Red&label=Website&style=flat-square&up_color=Yellow&up_message=Active&url=https%3A%2F%2Fna6im.github.io%2Fawsome-floating-button%2F">
+	</a>
+</p>
 
-In the project directory, you can run:
+<br>
+<br>
 
-### `yarn start`
+### <h1 align="center">An Awesome & Unique Customizable Floating Button</h1>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+    Powered by The WuuD Team
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center" style="justify-content: space-between">
+        	<img width="300" height="150" src="https://user-images.githubusercontent.com/7850794/37059519-9a190c14-2185-11e8-894f-e82a99f45171.png" alt="pose">
+</p>
 
-### `yarn test`
+## Build & Run
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Prerequisite
 
-### `yarn build`
+```bsh
+$ yarn i -g nodemon
+$ yarn i
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Development Mode
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bsh
+$ yarn start
+$ yarn test
+```
 
-### `yarn eject`
+#### Production Mode
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bsh
+$ yarn build
+$ yarn eject
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dev Team
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<table align="center">
+<tbody>
+  <tr>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/badjio">
+        <img
+          alt="Backend Developer"
+          src="https://avatars2.githubusercontent.com/u/15873766?s=400&v=4"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Moh Badjah</i>
+        <br />
+      </a>
+      <i>Backend Developer</i>
+    </td>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/na6im">
+        <img
+          alt="Web Developer"
+          src="https://avatars1.githubusercontent.com/u/38627023?s=400&v=4"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Nassim Amokrane</i>
+        <br />
+      </a>
+      <i>Web Developer</i>
+    </td>
+    <td align="center" valign="top" width="11%">
+      <a href="https://github.com/MedRedha">
+        <img
+          alt="Mobile Developer"
+          src="https://github.com/medredha.png?s=75"
+          style="border-radius: 50px"
+          width="100"
+          height="100"
+        />
+        <br />
+        <br />
+        <i>Med Redha</i>
+        <br />
+      </a>
+      <i>Mobile Developer</i>
+    </td>
+  </tr>
+</tbody>
+</table>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Attribution
 
-## Learn More
+-   React Pose powered by [Popmotion](https://popmotion.io/pose/)
+-   Built & Developed from [React JS](https://reactjs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing to The Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributing to the project is a piece of :cake:, read the [contributing guidelines](https://github.com/na6im/awsome-floating-button/blob/master/.github/CONTRIBUTING.md). You can discuss the project using the [issues section](https://github.com/na6im/awsome-floating-button/issues/new). To add a line create an issue and send a pull request, see [how to send a pull request](https://github.com/na6im/awsome-floating-button/blob/master/.github/CONTRIBUTING.md).
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The code is available under the [MIT](https://github.com/na6im/awsome-floating-button/blob/master/LICENSE) license.
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+###### [WuuD®](http://wuud.net/) - In code we trust -
