@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "prop-types": "^15.7.2"
   }
 }

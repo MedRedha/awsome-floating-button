@@ -15,7 +15,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Container, Floating, Item } from "./styles";
 import { PoseGroup } from "react-pose";
 import PropTypes from "prop-types";
-
+import MenuToggle from './hamburger'
 const rotations = {
   "3": [
     [(3 * Math.PI) / 2, Math.PI],
@@ -27,13 +27,7 @@ const rotations = {
   ],
 };
 
-function FloatingButton({
-  color,
-  height,
-  top = true,
-  right = false,
-  children,
-}) {
+function FloatingButton({ color, height, top, right, children }) {
   const [expanded, setExpanded] = useState(false);
   const ref = useRef(null);
   let number = React.Children.count(children);
@@ -82,7 +76,9 @@ function FloatingButton({
       <Container
         height={height}
         style={{ backgroundColor: `${color || "none"}` }}
-      />
+      >
+        <MenuToggle expanded={expanded}/>
+      </Container>
       <PoseGroup>
         {number === 1 ? (
           <Item
@@ -97,7 +93,7 @@ function FloatingButton({
           >
             <img
               src={children.props.imgSrc}
-              style={{ height: height / 2, width: height / 2 }}
+              style={{ height: height / 2, width: height / 2, fill: 'white' }}
               alt={"icon"}
             />
           </Item>
@@ -130,8 +126,8 @@ function FloatingButton({
 FloatingButton.defaultProps = {
   color: "none",
   height: 60,
-  top: true,
-  right: false,
+  top: false,
+  right: true,
   children: {},
 };
 
