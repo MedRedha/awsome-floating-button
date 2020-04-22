@@ -12,8 +12,8 @@ import logo7 from "./assets/MAP PIN.svg";
 import logo8 from "./assets/MUSIC.svg";
 
 function App() {
-  const [right, setRight] = useState(true);
-  const [top, setTop] = useState(false);
+  const [right, setRight] = useState(false);
+  const [top, setTop] = useState(true);
 
   return (
     <div className="App-header">
