@@ -2475,21 +2475,6 @@ autoprefixer@^9.6.1:
     postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
-awesome-floating-button@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/awesome-floating-button/-/awesome-floating-button-1.0.0.tgz#f32a8a36d9e1da9351b7370aad94e6b177d61de5"
-  integrity sha512-GJ+0A8bTm2d0QnCxh9pCXRxK1qG1N4T75nqir9XCq4cdUqMohKqpGJU2LmYdlnggp+wai6cdZoaOthpo89z7sA==
-  dependencies:
-    "@testing-library/jest-dom" "^4.2.4"
-    "@testing-library/react" "^9.3.2"
-    "@testing-library/user-event" "^7.1.2"
-    prettier "^2.0.5"
-    react "^16.13.1"
-    react-dom "^16.13.1"
-    react-pose "^4.0.10"
-    react-scripts "3.4.1"
-    styled-components "^5.1.0"
-
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -9080,6 +9065,17 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-floating-button@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-floating-button/-/react-floating-button-1.0.0.tgz#34ec843b7a9a14e1d43dafedd00201a907118473"
+  integrity sha512-/zvZoJJDDlyjXSB44Z0YGGboY5MPD6YQ4idq9gWmQy4wgiAVokBLxU1LlohOYBWOiVxl3KQQdmPEd1MRk/rRyg==
+  dependencies:
+    react "^16.13.1"
+    react-dom "^16.13.1"
+    react-pose "^4.0.10"
+    react-scripts "3.4.1"
+    styled-components "^5.1.0"
 
 react-is@^16.12.0, react-is@^16.7.0:
   version "16.13.1"

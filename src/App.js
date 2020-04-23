@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import FloatingButton from "awesome-floating-button";
-import Item from "awesome-floating-button";
+import FloatingButton from "react-floating-button";
+import Item from "react-floating-button";
 import logo from "./assets/DOWNLOAD.svg";
 import logo2 from "./assets/FORWARD 2.svg";
 import logo3 from "./assets/GRID.svg";
